@@ -42,7 +42,7 @@ print("Reduced Roll:", reduced_roll)
 print("-" * 40)
 print("-" * 40)
 
-# Roll with fewer dice, kicker is removed when dice < 7
+# Roll with fewer dice, kicker is removed when dice <= 7
 further_reduced_roll = roll_dice(num_dice=6)
 print("Further Reduced Roll:", further_reduced_roll)
 print("-" * 40)
